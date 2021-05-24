@@ -1,0 +1,40 @@
+<div class="jumbotron">
+  <div id="headerforartist">
+    <div id="leftheader">
+      <h1 class="display-3"><a href="/">Search lyric</a></h1>
+    </div>
+    <div id="rightheader"><img src="" alt=""></div>
+  </div>
+  <hr class="my-4">
+
+  <form id="form" autocomplete="off">
+    <div id="inputbutton">
+      <input type="text" class="form-control" id="inputDefault"
+        placeholder="Введите имя исполнителя или название песни...">
+      <div style="color: rgb(255, 255, 255)"><strong id="errormessage" style="font-size: 20px;"></strong></div>
+      <button type="button" class="btn btn-primary" id="searchbutton">Найти</button>
+    </div>
+
+    <div class="list-group" id="preresult"></div>
+
+      <button id="audio">Play</button>
+
+    <div id="searchresult">
+      <div class="box">
+        <div id="first" class="card text-white bg-primary mb-3" style="max-width: 20rem; margin: 5px 5px 0 0">
+          <div id="artisttitlefirst" class="card-header">Исполнитель - песня</div>
+          <div class="card-body">
+            <p id="resultOriginal" class="card-text">Здесь будет результат поиска...</p>
+          </div>
+        </div>
+
+        <div id="second" class="card text-white bg-success mb-3" style="max-width: 20rem; margin: 5px 5px 0 0">
+          <div id="artisttitlesecond" class="card-header">Исполнитель - песня</div>
+          <div class="card-body">
+            <p id="resultTranslate" class="card-text">Здесь будет перевод...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>

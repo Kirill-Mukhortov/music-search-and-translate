@@ -1,0 +1,10 @@
+DB_HOST=
+DB_NAME=
+DB_PORT=
+PORT=
+mongoDBurl=
+secretKey=
+yandexUrltext=
+yandexUrlspeach=
+folderID=
+yandexAPIkey=

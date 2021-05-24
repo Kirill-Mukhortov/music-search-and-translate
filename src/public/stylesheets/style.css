@@ -1,0 +1,62 @@
+#searchresult {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+
+#first {
+  vertical-align: baseline;
+  min-width: 500px;
+  width: auto;
+  display: inline-block;
+}
+
+#second {
+  vertical-align: top;
+  min-width: 500px;
+  width: auto;
+  display: inline-block;
+}
+
+#form {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+
+#searchbutton {
+  margin: 15px;
+}
+
+/* ---Шапка--- */
+
+#headerforartist {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+#leftheader {
+  vertical-align: baseline;
+  width: auto;
+  width: auto;
+  display: inline-block;
+}
+
+#rightheader {
+  vertical-align: baseline;
+  width: auto;
+  width: auto;
+  display: inline-block;
+  margin-left: 35em;
+}
+
+#audio {
+  margin: 15px;
+  /* visibility: hidden; */
+}
